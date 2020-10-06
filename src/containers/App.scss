@@ -1,18 +1,20 @@
-.app-wrapper {
+.app-wrapper,
+body {
   width: 100vw;
   height: 100vh;
   overflow: hidden;
 }
 
 .page-ranks {
-  width: 200px;
+  width: 150px;
   border-end-end-radius: 5px;
   background: white;
   position: absolute;
   top: 0;
-  left: 0;
+  right: 0;
   z-index: 1000000;
   max-height: 500px;
+  overflow: auto;
 }
 
 .visual-main {
@@ -28,6 +30,8 @@
   left: 0;
   z-index: 1000000;
   border-top-right-radius: 5px;
+  background: white;
+  padding: 5px;
 }
 
 .add-form {
